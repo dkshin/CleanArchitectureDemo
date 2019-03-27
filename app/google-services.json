@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "30918696331",
+    "firebase_url": "https://baseapp-54109.firebaseio.com",
+    "project_id": "baseapp-54109",
+    "storage_bucket": "baseapp-54109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30918696331:android:fe8ee1a8692dac1d",
+        "android_client_info": {
+          "package_name": "com.greenbugs.android.baseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30918696331-fqgc3m2u2e3v92rvks63fsqq91lpp09q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greenbugs.android.baseapp",
+            "certificate_hash": "90fc83d19aed9bf0dfaf791d7e8c21a4847c31ef"
+          }
+        },
+        {
+          "client_id": "30918696331-4l7vfaof5evll4q7ean4vb64co6kv5jl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greenbugs.android.baseapp",
+            "certificate_hash": "8047e16042fb4115d2f128ee8b555f81878ff63a"
+          }
+        },
+        {
+          "client_id": "30918696331-ke7qlrsorr4gb7qaatd17jeeo89jk113.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMMMc7c53sPzW_Ex99vwKxpSFcRJQjRCY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30918696331-ke7qlrsorr4gb7qaatd17jeeo89jk113.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30918696331:android:47668bf26c52acb5",
+        "android_client_info": {
+          "package_name": "kr.greenbugs.android.cleanarchitecturedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30918696331-c060htos27n530blfb9e0p896r7pia2p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.greenbugs.android.cleanarchitecturedemo",
+            "certificate_hash": "8047e16042fb4115d2f128ee8b555f81878ff63a"
+          }
+        },
+        {
+          "client_id": "30918696331-ke7qlrsorr4gb7qaatd17jeeo89jk113.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMMMc7c53sPzW_Ex99vwKxpSFcRJQjRCY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30918696331-ke7qlrsorr4gb7qaatd17jeeo89jk113.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

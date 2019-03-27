@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph"
+            app:startDestination="@+id/signFragment">
+
+    <fragment
+            android:id="@+id/signFragment"
+            android:name="kr.greenbugs.android.cleanarchitecturedemo.ui.sign.SignFragment"
+            android:label="Sign Fragment"
+            tools:layout="@layout/fragment_sign">
+
+        <action
+                android:id="@+id/actionSignToMain"
+                app:destination="@id/mainFragment"
+                app:enterAnim="@anim/enter_slide_down"
+                app:exitAnim="@anim/exit_slide_down"
+                app:popEnterAnim="@anim/pop_enter_slide_up"
+                app:popExitAnim="@anim/pop_exit_slide_up"/>
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/mainFragment"
+            android:name="kr.greenbugs.android.cleanarchitecturedemo.ui.main.MainFragment"
+            android:label="Main Fragment"
+            tools:layout="@layout/fragment_main">
+
+        <argument
+                android:name="title"
+                android:defaultValue="TEST TITLE"
+                app:argType="string"/>
+
+    </fragment>
+</navigation>
